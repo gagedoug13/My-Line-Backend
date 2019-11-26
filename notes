@@ -1,0 +1,27 @@
+Command line - express
+command line - knex init
+In knex file set connection to postgres DB
+command line - createdb "name of database" 
+
+command line - knex migrate:make "table"
+fill out export up/export down with table attributes
+command line - knex migrate:latest
+command line - knex seed:make "table"
+create instances in seeds file / rename table 
+knex seed:run
+
+model setup =>
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+return refers to the output that a function gives back when invoked by user input.
+
+A procedure refers to the way something will be handled to recieve the desired output 
+a hash is typically used to store data that can be more easily accessed. An array is used to store data that is subject to change often
+
+a hash gives you the ability to find values using inumerable methods. Hashes require a little more work.
+
+Map is ideal to use on array when you want to return a part of every item to an array of equal size
+ Select is used to 'select' every item from an array that 
+matches the searchterm. reduce returns a single value from an array. Find also returns a single item from an array that matches the searchterm
+
+a class defines the blueprint of what an instance of that class should look like. a class in the cookie cutter, the instance is the cookie.
